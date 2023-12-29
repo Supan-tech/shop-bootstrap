@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Supan Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../all-products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../check-out.html">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../../images/asus-vivobook.png" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-4">Asus vivobook 16</h2>
+                <p class="lead">Vivobook 16 keeps you fully connected with its comprehensive I/O ports. There are an
+                    USB-C ® 3.2 Gen 1 port with power delivery, two USB 3.2 Gen 1 Type-A ports, a USB 2.0 port, HDMI ®
+                    output and an audio combo jack — so it's easy to connect all your existing peripherals, displays and
+                    projectors.
+                </p>
+                <p class="font-weight-bold text-primary mb-2">$799.99</p>
+                <div class="mb-4">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" class="form-control">
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
